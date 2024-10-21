@@ -35,4 +35,34 @@ const gallery = {
   'The Scream': 'Edvard Munch',
 }
 
-function updateGallery() {}
+function updateGallery(virtualGallery, artworkName, newValue) {
+  for (const key in virtualGallery) {
+    if (artworkName === key) {
+      virtualGallery[key] = newValue
+    } else {
+      virtualGallery[artworkName] = newValue
+    }
+  }
+};
+
+// function updateGallery(virtualGallery, artworkName, newValue) {
+//     let isArtwork = false
+
+//     for (const key in virtualGallery) {
+//         if (artworkName === key) {
+//             virtualGallery[key] = newValue
+//             isArtwork = true
+//         }
+//     }
+
+//     if (isArtwork === false) {
+//         virtualGallery[artworkName] = newValue
+//     }
+// };
+
+updateGallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506');
+updateGallery(gallery, 'The Persistence of Memory', 'Salvador Dali');
+updateGallery(gallery, 'Starry Night', 'Vincent van Gogh, 1889');
+updateGallery(gallery, 'La Danse (second version)', 'Henri Matisse, 1910');
+
+console.log(gallery);
