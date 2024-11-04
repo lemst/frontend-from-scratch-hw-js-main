@@ -21,4 +21,4 @@ if (score >= 0 && score <= 49) {
     grade = 'Incorrect score!'
 };
 
-console.log(grade);
+// console.log(grade);

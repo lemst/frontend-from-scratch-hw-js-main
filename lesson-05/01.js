@@ -31,13 +31,13 @@ const game = {
   }
 };
 
-game.addResource('gold', 50);
-console.log(game.resources.gold);
+// game.addResource('gold', 50);
+// console.log(game.resources.gold);
 
-game.addResource('gold', 100);
-console.log(game.resources.gold);
+// game.addResource('gold', 100);
+// console.log(game.resources.gold);
 
-game.addResource('lumber', 100);
-console.log(game.resources.lumber);
+// game.addResource('lumber', 100);
+// console.log(game.resources.lumber);
 
-game.addResource('iron', 50);
+// game.addResource('iron', 50);

@@ -9,5 +9,5 @@ function isEven(number) {
     }
 };
 
-const isTheNumberEven = isEven(8);
-console.log(isTheNumberEven);
+// const isTheNumberEven = isEven(8);
+// console.log(isTheNumberEven);

@@ -29,7 +29,7 @@ function findUniqueElements(array) {
     return array.length === 0 ? result = [] : result
 };
 
-console.log(findUniqueElements([2, 2, 2, 2, 2, 2, 5, 3, 4, 5, 8, 7, 7, 8]));
-console.log(findUniqueElements([1, 1, 1, 1, 1, 1, 1, 1]));
-console.log(findUniqueElements([1, 2, 3, 4, 5, 6, 7, 8]));
-console.log(findUniqueElements([]));
+// console.log(findUniqueElements([2, 2, 2, 2, 2, 2, 5, 3, 4, 5, 8, 7, 7, 8]));
+// console.log(findUniqueElements([1, 1, 1, 1, 1, 1, 1, 1]));
+// console.log(findUniqueElements([1, 2, 3, 4, 5, 6, 7, 8]));
+// console.log(findUniqueElements([]));

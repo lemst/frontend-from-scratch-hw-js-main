@@ -28,7 +28,7 @@ function includesElement(array, element) {
     return isElement
 };
 
-console.log(includesElement([1, 2, 3], 2));
-console.log(includesElement([1, 2, 3], 5));
-console.log(includesElement(['Dog', 'Cat', 'Frog'], 'Cat'));
-console.log(includesElement(['Dog', 'Cat', 'Frog'], 'Parrot'));
+// console.log(includesElement([1, 2, 3], 2));
+// console.log(includesElement([1, 2, 3], 5));
+// console.log(includesElement(['Dog', 'Cat', 'Frog'], 'Cat'));
+// console.log(includesElement(['Dog', 'Cat', 'Frog'], 'Parrot'));

@@ -30,6 +30,6 @@ function findCommonElements(array1, array2) {
     return result
 };
 
-console.log(findCommonElements([1, 2, 3], [2, 3, 4]));
-console.log(findCommonElements([1, 2, 3], [4, 5, 6]));
-console.log(findCommonElements(['Frog', 'Cat', 'Dog', 'Rabbit'], ['Cat', 'Frog', 'Parrot', 'Dog']));
+// console.log(findCommonElements([1, 2, 3], [2, 3, 4]));
+// console.log(findCommonElements([1, 2, 3], [4, 5, 6]));
+// console.log(findCommonElements(['Frog', 'Cat', 'Dog', 'Rabbit'], ['Cat', 'Frog', 'Parrot', 'Dog']));

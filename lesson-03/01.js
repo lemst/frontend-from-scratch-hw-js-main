@@ -5,5 +5,5 @@ function calculateAverage(number_1, number_2) {
     return average
 };
 
-const average_1 = calculateAverage(5, 3);
-console.log(average_1);
+// const average_1 = calculateAverage(5, 3);
+// console.log(average_1);

@@ -60,9 +60,9 @@ function updateGallery(virtualGallery, artworkName, newValue) {
 //     }
 // };
 
-updateGallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506');
-updateGallery(gallery, 'The Persistence of Memory', 'Salvador Dali');
-updateGallery(gallery, 'Starry Night', 'Vincent van Gogh, 1889');
-updateGallery(gallery, 'La Danse (second version)', 'Henri Matisse, 1910');
+// updateGallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506');
+// updateGallery(gallery, 'The Persistence of Memory', 'Salvador Dali');
+// updateGallery(gallery, 'Starry Night', 'Vincent van Gogh, 1889');
+// updateGallery(gallery, 'La Danse (second version)', 'Henri Matisse, 1910');
 
-console.log(gallery);
+// console.log(gallery);

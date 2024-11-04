@@ -10,5 +10,5 @@ function findLargest(number_1, number_2, number_3) {
     }
 };
 
-const largestNumber = findLargest(8, 9, 11);
-console.log(largestNumber);
+// const largestNumber = findLargest(8, 9, 11);
+// console.log(largestNumber);
